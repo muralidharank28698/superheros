@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  background-color: rgb(85, 78, 69);
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(252, 128, 13);
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.content {
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+#ins {
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: blueviolet;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: auto;
+}
+
+.class {
+  overflow: hidden;
+  max-height: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+/* #super {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+/* #iron {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+/* #hulk {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+/* #captainamerica {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+/* #wonderwoman {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+/* #thor {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+
+.style {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  max-height: 100%;
+  flex-direction: row;
+  height: 650px;
+}
+img:hover {
+  opacity: 0.6;
+  transition: opacity 4s;
+  border-radius: 20px;
+}
